@@ -1,0 +1,7 @@
+v0 = (v1) AND NOT (v2)
+v1 = (v0) OR (v3)
+v2 = NOT (v4)
+v3 = (v2) OR NOT (v5)
+v4 = (v3) AND (v6)
+v5 = NOT (v1) OR (v4)
+v6 = (v5) AND NOT (v0)
